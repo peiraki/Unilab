@@ -1,0 +1,140 @@
+@media(max-width:1165px){
+    .postscont {
+        flex-direction: column;
+        text-align: center;
+    }
+    .counbottom {
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        gap:20px;
+    }
+    .counbottom div {
+        width: 100%;
+    }
+    .postcontapi {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:900px){
+    .headcont {
+        margin: 0 10px;
+    }
+    .container-slider-texts * {
+        transform: scale(.8);
+    }
+    .backgrounded-text {
+        transform: scale(1);
+    }
+    .arrows {
+        gap:70%;
+        opacity: 0.5;
+    }
+    .postscont .right div {
+        justify-content: center;
+        align-items: center;
+    }
+    .postscont .right { 
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+    }
+    .margin-top-bottom {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .statdata {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .boxes-cont {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap:30px;
+    }
+    .tours-box {
+        align-items: center;
+    }
+    .travelers {
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+    .footercont {
+        flex-direction: column;
+        align-items: center;
+        gap:50px;
+    }
+}
+
+@media (max-width:720px){
+    .headcont .right ul {
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        left: 0;
+        bottom: 0;
+        transform: translateY(100%);
+        text-align: center;
+        background-color: rgb(77, 217, 212);
+        color:white;
+        overflow: hidden;
+        gap:0;
+        font-weight: bold;
+        transition: .4s;
+    }
+    .dropdownmenu {
+        height: 339px !important;
+    }
+    .dropdownmenu li:hover {
+        background-color: rgba(0, 0, 0, 0.495);
+    }
+    .headcont .right a {
+        color:white;
+    }
+    .burger-menu {
+        display: unset;
+    }
+    .postscont .right { 
+        grid-template-columns: 1fr 1fr;
+    }
+    .postscont .right { 
+        grid-template-columns: 1fr;
+    }
+    .videoplay{
+        height: 200px !important;
+        width: 290px !important;
+    }
+    .videocont {
+        height: 350px;
+    }
+    .statdata {
+        grid-template-columns: auto;
+        gap:40px;
+    }
+    .offer10 form {
+        flex-direction: column;
+    }
+    .counbottom {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap:20px;
+        overflow: hidden;
+    }
+    .foot-left {
+        flex-direction: column;
+    }
+    .postcontapi {
+        grid-template-columns:  1fr;
+    }
+    .box-in-box {
+        width: 100% !important;
+        transform: translateY(0) !important;
+        box-shadow: none;
+    }
+    .contact-info-box {
+        flex-direction: column;
+    }
+    .services-box2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

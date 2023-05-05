@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>Tousrism - Landing Page</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="headcont mx-width">
+                <div class="left">
+                    <div class="logo-text"><a href="#">Tousrism</a> </div>
+                </div>
+                <div class="right">
+                    <div class="burger-menu" onclick="dropDownMenu()">☰</div>
+                    <ul id="dropMenu">
+                        <li class="selectedpage"><a href="#" >Home</a></li>
+                        <li><a href="pages/about.html">About US</a></li>
+                        <li><a href="pages/services.html">Our Services</a></li>
+                        <li><a href="pages/tour.html">Tour Package</a></li>
+                        <li><a href="pages/api.html">Api</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="slider">
+            <div class="slidercont">
+                <img id="sliderBackgroundImage" src="img/slider/slidercover.jpg" alt="Header Background Image Should Be Here">
+                <div class="container-slider-texts">
+                    <div class="backgrounded-text">
+                        <img width="287" height="92" src="img/parts/brush.png" alt="Text Background Here">
+                    </div>
+                    <h1 id="sliderH1">Discover Greece</h1>
+                    <p>TRAVEL WITH UNIQUE EXPERIENCE</p>
+                </div>
+                <div class="arrows">
+                    <div class="left" onclick="sliderMinus()">🡸</div>
+                    <div class="right" onclick="sliderPlus()">🡺</div>
+                </div>
+            </div>
+        </section>
+        <section class="postscont mx-width margin-top-bottom">
+            <div class="left">
+                <p class="gray">DISCOVER</p>
+                <h2>Our Hot Services</h2>
+                <img class="underline-wave" src="img/parts/wave-underline.png" alt="wave-underline">
+                <p class="margin-top-gray">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+            </div>
+            <div class="right">
+                
+            </div>
+        </section>
+        <section class="videocontsect">
+            <div class="videocont"></div>
+            <div class="videocontcontent">
+                <p class="gray">DISCOVER</p>
+                <h2>Watch Our Video Tour</h2>
+                <img class="underline-wave" src="img/parts/wave-underline.png" alt="Beach Image ere">
+                <div class="videoplay" id="tourImage">
+                    <video src="video/tour.mp4" class="dispnone" id="tourVideo"></video>
+                    <img src="img/video.png" alt="Our Video Tour Image" id="videoTourImage">
+                    <img src="img/parts/Forma1.png" alt="play button image" id="playBtn">
+                </div>
+            </div>
+        </section>
+        <section class="statdata"></section>
+        <section class="pop-tours">
+            <div class="head-text">
+                <p class="gray">We Offer</p>
+                <h2>Popular Tour Package</h2>
+                <img class="underline-wave" src="img/parts/wave-underline.png" alt="wave-underline">
+            </div>
+            <div class="boxes-cont">
+                <div class="tours-box">
+                    <div class="imgbox">
+                        <img src="img/pop/1.png" alt="Blue Beauty of Greece">
+                        <div class="abs-text">Honeymoon</div>
+                    </div>
+                    <p>$299 / person</p>
+                    <div class="blue-text">Blue Beauty of Greece</div>
+                    <p>5 Days / 6 Night</p>
+                </div>
+                <div class="tours-box">
+                    <div class="imgbox">
+                        <img src="img/pop/2.png" alt="Nature of Phuket">
+                        <div class="abs-text">Holiday</div>
+                    </div>
+                    <p>$178 / person</p>
+                    <div class="blue-text">Nature of Phuket</div>
+                    <p>3 Days / 4 Night</p>
+                </div>
+                <div class="tours-box">
+                    <div class="imgbox">
+                        <img src="img/pop/3.png" alt="World Tour of Paris">
+                        <div class="abs-text">Holiday</div>
+                    </div>
+                    <p>$1111 / person</p>
+                    <div class="blue-text">World Tour of Paris</div>
+                    <p>7 Days / 8 Night</p>
+                </div>
+            </div>
+        </section>
+        <section class="offer10">
+            <h2>Get 10% Off on Your Next Travel</h2>
+            <p>Maximum discount 1000$ per person</p>
+            <form name="form" action="sumbit.php" onsubmit="return validateForm()" method="post">
+                <input type="email" id="mail" name="mail" placeholder="Enter Your Email">
+                <input type="submit" value="Subscribe" id="subscribeBtn">
+            </form>
+        </section>
+        <section class="travelers-sect">
+            <p class="gray">OUR SMILES</p>
+            <h2>Happy Travelers</h2>
+            <img class="underline-wave" src="img/parts/wave-underline.png" alt="Beach Image ere">
+            <div class="travelers">
+                <div class="trabox">
+                    <img src="img/travelers/01.png" alt="Ribeca Image">
+                    <div class="blue-text">Ribeca Singh</div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    <img src="img/travelers/Q.png" alt="">
+                </div>
+                <div class="trabox">
+                    <img src="img/travelers/02.png" alt="Ribeca Image">
+                    <div class="blue-text">Jimmy Dean</div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    <img src="img/travelers/Q.png" alt="">
+                </div>
+                <div class="trabox">
+                    <img src="img/travelers/03.png" alt="Ribeca Image">
+                    <div class="blue-text">Theodule Terer</div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    <img src="img/travelers/Q.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="plan-trip">
+            <div class="white-large-text">Ready to plan your trip?</div>
+            <div class="bookbtn"><a href="#Book">BOOK NOW</a></div>
+        </section>
+        <section class="countries">
+            <div class="countop">
+                <p class="gray">OUR SMILES</p>
+                <h2>Happy Travelers</h2>
+                <img class="underline-wave" src="img/parts/wave-underline.png" alt="Beach Image ere">
+            </div>
+            <div class="counbottom">
+                <div class="c-imgbox1 c-imgbox">
+                    <div class="c-img"></div>
+                    <div class="bot-text">
+                        <div class="name-price">
+                            <div class="c-name">Greece</div>
+                            <div class="t-price">$900 - $1900</div>
+                        </div>
+                        <a href="/pages/tour.html#greece">
+                            <img class="c-arrow" src="img/parts/bgarrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="c-imgbox2 c-imgbox">
+                    <div class="c-img"></div>
+                    <div class="bot-text">
+                        <div class="name-price">
+                            <div class="c-name">Indonesia</div>
+                            <div class="t-price">$900 - $1900</div>
+                        </div>
+                        <a href="/pages/tour.html#indonesia">
+                            <img class="c-arrow" src="img/parts/bgarrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="c-imgbox3 c-imgbox">
+                    <div class="c-img"></div>
+                    <div class="bot-text">
+                        <div class="name-price">
+                            <div class="c-name">Japan</div>
+                            <div class="t-price">$900 - $1900</div>
+                        </div>
+                        <a href="/pages/tour.html#japan">
+                            <img class="c-arrow" src="img/parts/bgarrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="c-imgbox4 c-imgbox">
+                    <div class="c-img"></div>
+                    <div class="bot-text">
+                        <div class="name-price">
+                            <div class="c-name">Thailand</div>
+                            <div class="t-price">$900 - $1900</div>
+                        </div>
+                        <a href="/pages/tour.html#thailand">
+                            <img class="c-arrow" src="img/parts/bgarrow.png" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1422.0876452238522!2d-87.92373858088247!3d44.532043292731295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e8a79217d6a9%3A0xdd21e99e77607e51!2sUWGB%20Library!5e0!3m2!1sen!2sge!4v1682973284264!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer>
+            <div class="footercont mx-width">
+                <div class="foot-left">
+                    <ul>
+                        <li><strong>Quick Links</strong></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Company</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Infrastructures</a></li>
+                    </ul>
+                    <ul>
+                        <li><strong>Support</strong></a></li>
+                        <li><a href="#">Get Started</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Ipsum</a></li>
+                    </ul>
+                    <ul>
+                        <li><strong>Adress</strong></a></li>
+                        <li><a href="#">14 st. Started</a></li>
+                        <li><a href="#">auckind 3500, Grelandia</a></li>
+                        <li><a href="tel:+86689598478">+86689598478</a></li>
+                        <li><a href="#">Ipsum</a></li>
+                    </ul>
+                </div>
+                <div class="foot-right">
+                    <p>Subscribe to our newletter</p>
+                    <form>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                        <input type="submit" value="SUB" id="subscribeBtn2">
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/allPage.js"></script>
+</html>

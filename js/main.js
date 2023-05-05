@@ -1,8 +1,8 @@
 // Slider. ....................
 let sliderImages = [
-    'img/slider/slidercover.png',
-    'img/slider/slider2.png',
-    'img/slider/slider3.png'
+    'img/slider/slidercover.jpg',
+    'img/slider/slider2.jpg',
+    'img/slider/slider3.jpg'
 ]
 let sliderH1text = [
     'Discover Greece',

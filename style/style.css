@@ -70,9 +70,11 @@ header {
     align-items: center;
 }
 
-.logo-text {
+.logo-text a{
     font-family: 'Dancing Script', cursive;
     padding: 15px 0;
+    text-transform: capitalize !important;
+    color:#8D8D8D;
 }
 .headcont .left {
     font-size: 2rem;
